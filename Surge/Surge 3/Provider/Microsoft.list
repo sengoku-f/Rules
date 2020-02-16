@@ -12,3 +12,10 @@ DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,windows.com
 DOMAIN-SUFFIX,windows.net
 DOMAIN-SUFFIX,windowsupdate.com
+# > Microsoft 2
+DOMAIN-SUFFIX,msecnd.net
+DOMAIN-SUFFIX,office365.com
+# DOMAIN-SUFFIX,s-microsoft.com
+# DOMAIN-SUFFIX,visualstudio.com
+# DOMAIN,lpcres.delve.office.com
+# DOMAIN,officecdn-microsoft-com.akamaized.net

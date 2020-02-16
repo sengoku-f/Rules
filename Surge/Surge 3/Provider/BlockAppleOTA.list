@@ -1,0 +1,9 @@
+# 用于屏蔽 Apple OTA 更新 (https://support.apple.com/en-us/HT210060)
+# > Apple OTA
+DOMAIN-SUFFIX,appldnld.apple.com,REJECT
+DOMAIN-SUFFIX,gdmf.apple.com,REJECT
+DOMAIN-SUFFIX,mesu.apple.com,REJECT
+DOMAIN-SUFFIX,updates-http.cdn-apple.com,REJECT
+DOMAIN-SUFFIX,updates.apple.com,REJECT
+DOMAIN-SUFFIX,updates.cdn-apple.com,REJECT
+DOMAIN-SUFFIX,xp.apple.com,REJECT

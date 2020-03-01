@@ -26,6 +26,11 @@ DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,mzstatic.com
+# 增加 Apple 证书验证相关域名并使用代理策略，用来优化 macOS App 启动速度
+DOMAIN,ocsp.apple.com
+DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,entrust.net
+DOMAIN,ocsp.verisign.net
 # apple 2
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,apple.co

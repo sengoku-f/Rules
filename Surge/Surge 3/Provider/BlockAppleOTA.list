@@ -7,5 +7,6 @@ DOMAIN-SUFFIX,updates-http.cdn-apple.com
 DOMAIN-SUFFIX,updates.apple.com
 DOMAIN-SUFFIX,updates.cdn-apple.com
 DOMAIN-SUFFIX,xp.apple.com
+DOMAIN-SUFFIX,ns.itunes.apple.com
 # 绕过App企业证书过期
 # DOMAIN,ocsp.apple.com

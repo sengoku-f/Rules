@@ -4803,6 +4803,7 @@
 - DOMAIN-SUFFIX,livep.l.ott.video.qq.com,AdBlock
 - DOMAIN-SUFFIX,lives.l.cp81.ott.cibntv.net,AdBlock
 - DOMAIN-SUFFIX,lives.l.ott.video.qq.com,AdBlock
+- DOMAIN-SUFFIX,lives.l.qq.com,AdBlock
 - DOMAIN-SUFFIX,liveupdate.mac.sandai.net,AdBlock
 - DOMAIN-SUFFIX,lixiangmo.com,AdBlock
 - DOMAIN-SUFFIX,ljrtb.cn,AdBlock
@@ -8710,6 +8711,7 @@
 # > Google
 - DOMAIN-KEYWORD,mtalk.google.com,DIRECT
 - DOMAIN,safebrowsing.googleapis.com,DIRECT
+- DOMAIN-SUFFIX,dl.google.com,DIRECT
 
 # > Steam
 # - USER-AGENT,Steam*,DIRECT
@@ -8962,7 +8964,6 @@
 - DOMAIN-SUFFIX,g.co,Proxy
 - DOMAIN-SUFFIX,gabia.net,Proxy
 - DOMAIN-SUFFIX,garena.com,Proxy
-- DOMAIN-SUFFIX,gameloft.com,Proxy
 - DOMAIN-SUFFIX,geni.us,Proxy
 - DOMAIN-SUFFIX,get.how,Proxy
 - DOMAIN-SUFFIX,getcloudapp.com,Proxy
@@ -9348,6 +9349,7 @@
 - DOMAIN-SUFFIX,xda-developers.com,Proxy
 - DOMAIN-SUFFIX,xeeno.com,Proxy
 - DOMAIN-SUFFIX,xiti.com,Proxy
+- DOMAIN-SUFFIX,xteko.com,Proxy
 - DOMAIN-SUFFIX,xuite.net,Proxy
 - DOMAIN-SUFFIX,xvideos.com,Proxy
 - DOMAIN-SUFFIX,yahoo.com,Proxy
@@ -9510,6 +9512,8 @@
 - DOMAIN-KEYWORD,beplay,Domestic
 
 # > Blizzard
+# - USER-AGENT,hearthstone*,Domestic
+- DOMAIN,cdp.cloud.unity3d.com,Domestic
 - DOMAIN-SUFFIX,battle.net,Domestic
 - DOMAIN-SUFFIX,battlenet.com,Domestic
 - DOMAIN-SUFFIX,blizzard.com,Domestic
@@ -9519,6 +9523,7 @@
 - DOMAIN-SUFFIX,hotmail.com,Domestic
 - DOMAIN-SUFFIX,msn.com,Domestic
 - DOMAIN-SUFFIX,outlook.com,Domestic
+- DOMAIN-SUFFIX,sharepoint.com,Domestic
 - DOMAIN-SUFFIX,windows.com,Domestic
 - DOMAIN-SUFFIX,windows.net,Domestic
 - DOMAIN-SUFFIX,windowsupdate.com,Domestic
@@ -9619,6 +9624,7 @@
 - DOMAIN-SUFFIX,firefox.com,Domestic
 - DOMAIN-SUFFIX,frdic.com,Domestic
 - DOMAIN-SUFFIX,fresh-ideas.cc,Domestic
+- DOMAIN-SUFFIX,gameloft.com,Domestic
 - DOMAIN-SUFFIX,geetest.com,Domestic
 - DOMAIN-SUFFIX,godic.net,Domestic
 - DOMAIN-SUFFIX,goodread.com,Domestic
@@ -9769,7 +9775,6 @@
 - DOMAIN-SUFFIX,xitek.com,Domestic
 - DOMAIN-SUFFIX,xmcdn.com,Domestic
 - DOMAIN-SUFFIX,xslb.net,Domestic
-- DOMAIN-SUFFIX,xteko.com,Domestic
 - DOMAIN-SUFFIX,xunlei.com,Domestic
 - DOMAIN-SUFFIX,yach.me,Domestic
 - DOMAIN-SUFFIX,yeepay.com,Domestic

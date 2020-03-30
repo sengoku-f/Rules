@@ -3,12 +3,8 @@ USER-AGENT,%E5%9C%B0%E5%9B%BE*
 USER-AGENT,%E8%AE%BE%E7%BD%AE*
 USER-AGENT,*com.apple.mobileme.fmip1
 USER-AGENT,*WeatherFoundation*
-USER-AGENT,AppleNews*
-USER-AGENT,AppStore*
-USER-AGENT,com.apple.appstored*
 USER-AGENT,com.apple.geod*
 USER-AGENT,com.apple.Maps
-USER-AGENT,com.apple.news*
 USER-AGENT,FindMyFriends*
 USER-AGENT,FindMyiPhone*
 USER-AGENT,FMDClient*
@@ -18,28 +14,38 @@ USER-AGENT,geod*
 USER-AGENT,locationd*
 USER-AGENT,Maps*
 USER-AGENT,TestFlight*
+
+# Apple 证书服务
+# DOMAIN,ocsp.apple.com
+# DOMAIN-SUFFIX,digicert.com
+# DOMAIN-SUFFIX,entrust.net
+# DOMAIN,ocsp.verisign.net
+
+# Apple News
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
 DOMAIN,apple.comscoreresearch.com
+DOMAIN-SUFFIX,apple.news
+
+# Apple CDN
+USER-AGENT,AppStore*
+USER-AGENT,com.apple.appstored*
+DOMAIN-SUFFIX,mzstatic.com
+
+# Apple API
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,me.com
-DOMAIN-SUFFIX,mzstatic.com
-# 增加 Apple 证书验证相关域名并使用代理策略，用来优化 macOS App 启动速度
-DOMAIN,ocsp.apple.com
-DOMAIN-SUFFIX,digicert.com
-DOMAIN-SUFFIX,entrust.net
-DOMAIN,ocsp.verisign.net
-# apple 2
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,apple.co
-DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,crashlytics.com
-DOMAIN,www-cdn.icloud.com.akadns.net
+DOMAIN-SUFFIX,akadns.net
 IP-CIDR,17.0.0.0/8,no-resolve
